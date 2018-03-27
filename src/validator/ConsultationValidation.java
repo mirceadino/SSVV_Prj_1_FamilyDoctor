@@ -1,10 +1,10 @@
 package validator;
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
-import repository.Repository;
 import exceptions.PatientException;
+import repository.Repository;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ConsultationValidation {
 	public static void ssidValidate(String name, Repository rep) throws PatientException {

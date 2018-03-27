@@ -1,15 +1,15 @@
 package controller;
 
+import exceptions.ConsultationException;
+import exceptions.PatientException;
+import model.Consultation;
+import model.Patient;
+import repository.Repository;
+import validator.PatientValidation;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import exceptions.ConsultationException;
-import exceptions.PatientException;
-import repository.Repository;
-import validator.PatientValidation;
-import model.Consultation;
-import model.Patient;
 
 public class DoctorController {
 

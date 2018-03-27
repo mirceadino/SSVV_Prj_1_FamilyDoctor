@@ -1,9 +1,9 @@
 package validator;
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
 import exceptions.PatientException;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class PatientValidation {
 	public static void nameValidate(String name) throws PatientException {

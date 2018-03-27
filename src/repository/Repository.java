@@ -1,16 +1,12 @@
 package repository;
 
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
-
 import model.Consultation;
 import model.Patient;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Repository {

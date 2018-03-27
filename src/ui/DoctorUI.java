@@ -1,14 +1,13 @@
 package ui;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
-import model.Consultation;
-import model.Patient;
 import controller.DoctorController;
 import exceptions.ConsultationException;
 import exceptions.PatientException;
+import model.Patient;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class DoctorUI {
 	public DoctorController ctrl;

@@ -1,7 +1,7 @@
 
+import controller.DoctorController;
 import repository.Repository;
 import ui.DoctorUI;
-import controller.DoctorController;
 
 public class App {
 
