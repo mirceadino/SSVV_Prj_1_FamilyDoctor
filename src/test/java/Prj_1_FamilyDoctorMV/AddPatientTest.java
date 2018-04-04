@@ -54,7 +54,7 @@ public class AddPatientTest
       ctrl.addPatient(new Patient("Mihai Radu", "invalid", "9 Mihai Radu"));
       assertTrue(false);
     } catch (PatientException err) {
-      assertEquals(ctrl.getPatientList().size(), 1);
+      assertEquals(ctrl.getPatientList().size(), 0);
     }
   }
 }
